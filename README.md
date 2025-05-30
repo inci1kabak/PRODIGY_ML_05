@@ -1,4 +1,4 @@
-### FoodCalorieEstimator
+### FoodCalorieEstimator:
 FoodCalorieEstimator is a machine learning-based application designed to accurately recognize food items from images and estimate their calorie content. This tool helps users track their dietary intake effortlessly and make informed nutritional choices to maintain a healthy lifestyle.
 
 ##### Features
