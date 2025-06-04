@@ -1,20 +1,14 @@
-### FoodCalorieEstimator:
-FoodCalorieEstimator is a machine learning-based application designed to accurately recognize food items from images and estimate their calorie content. This tool helps users track their dietary intake effortlessly and make informed nutritional choices to maintain a healthy lifestyle.
+### Food Calorie Predictor with MobileNetV2
+This project uses deep learning to classify food images and estimate their calorie content.
+The model is trained on the Food-101 dataset using the MobileNetV2 architecture.
 
-##### Features
-* Detects various food items from photos using deep learning models.
+#### Contents :
+food_model.h5 : Trained model file
 
-* Provides calorie estimates based on recognized food types and portion sizes.
+classes.txt : File containing class names
 
-* User-friendly interface for easy dietary tracking.
+main.py : Captures an image from the camera, makes a prediction, and displays the estimated calories
 
-* Supports multiple cuisines and food categories.
-
-##### How It Works
-1. User uploads a food image.
-
-2. The model identifies the food item(s) present in the image.
-
-3. Calorie content is estimated based on recognized items and standard nutritional databases.
-
-4. Results are displayed with nutritional information to assist users in monitoring their diet.
+#### How to Run?
+1. Install required libraries:
+pip install tensorflow opencv-python
